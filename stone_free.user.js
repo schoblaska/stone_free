@@ -12,6 +12,7 @@ product_name = product_name_element.innerHTML.toLowerCase();
 category_links = document.getElementById('SalesRank').getElementsByTagName('td')[document.getElementById('SalesRank').getElementsByTagName('td').length - 1].getElementsByTagName('a');
 category_name = singularize(category_links[category_links.length - 1].innerHTML.toLowerCase());
 parent_category_name = singularize(category_links[category_links.length - 2].innerHTML.toLowerCase());
+
 // craigslist's search isn't very forgiving, so we'll try to figure out the best keyword to use
 if (product_name.match(parent_category_name)) {
   search_keyword = parent_category_name;
