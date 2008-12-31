@@ -1,0 +1,23 @@
+Stone Free
+================
+ 
+Stone Free is a greasemonkey script to help you discover free alternatives to consumer goods. It currently works with Amazon and Craigslist.
+
+
+
+Usage
+========
+
+1 - Add the script via greasemonkey
+2 - Edit the script to use the Craigslist site nearest to you
+3 - Visit an Amazon product page and marvel at the free alternatives found on Craigslist
+
+ 
+ 
+Author
+======
+ 
+Joey Schoblaska
+Zen Web Apps, LLC
+ 
+Copyright (c) 2008 Joey Schoblaska, released under the MIT license
