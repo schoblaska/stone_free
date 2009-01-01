@@ -52,7 +52,7 @@ GM_xmlhttpRequest({
       
       if (total_results > 0) {
         
-        render_text = "<h2 style='color: red; font-size: 0.9em'>Get This For Free Instead</h1>";
+        render_text = "<h2 style='color: red; font-size: 0.9em'>Get This For Free Instead</h2>";
         render_text += "<p style='font-size: 0.65em; margin: 0 0 5px 0;'>We found some FREE items on Craigslist that appear similar to this item. Maybe you can pick something up for free instead.</p>";
         
         for (var i = 0; i < results.length && i < 3; i++) {        
